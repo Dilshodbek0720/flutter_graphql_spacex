@@ -1,10 +1,5 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_graphql_spacex/api/queries/get_ships.dart';
+import '../../utils/export_library.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:lottie/lottie.dart';
-import '../../api/models/ship_model.dart';
-
 
 class ShipsGraphqlScreen extends StatefulWidget {
   const ShipsGraphqlScreen({super.key});

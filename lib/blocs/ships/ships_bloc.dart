@@ -1,6 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/cupertino.dart';
-
 import 'package:flutter_graphql_spacex/api/ships_api.dart';
 import 'package:flutter_graphql_spacex/blocs/ships/ships_event.dart';
 import 'package:flutter_graphql_spacex/blocs/ships/ships_state.dart';

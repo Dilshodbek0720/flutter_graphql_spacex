@@ -1,10 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_graphql_spacex/api/ships_api.dart';
-import 'package:flutter_graphql_spacex/blocs/ships/ships_bloc.dart';
-import 'package:flutter_graphql_spacex/blocs/ships/ships_event.dart';
-import 'package:flutter_graphql_spacex/ui/ships/ships_screen.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
+import 'utils/export_library.dart';
 
 void main() {
   runApp(MainApp(
